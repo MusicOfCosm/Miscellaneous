@@ -29,7 +29,7 @@ import os
 
 def setup(title, root): #Just to gain some space
     root.title(title)
-    # root.iconbitmap(r'C:\Users\macky\OneDrive\Documents\Projects\Python\Cadeau_Bee(Icone).ico')
+    root.iconbitmap('../Rosace.ico')
     root.state('zoom') #basically fullscreen but with the buttons on top, 'zoomed' does the same
 
     global canvas
