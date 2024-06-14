@@ -10,4 +10,4 @@ My second guided project by sentdex, it was part of the [Intermediate Python Pro
 
 ### Initialization
 
-I believe this file's purpose is to serve as an example script using PyGame, with different functions being used, and comments explaining what they do. Good job past me!
+I made this while watching [this video](https://www.youtube.com/watch?v=AY9MnQ4x3zk). This file's purpose is also to serve as an example script using PyGame, shown by the different functions being used and comments explaining what they do.
