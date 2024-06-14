@@ -1,0 +1,66 @@
+#based on https://musescore.com/user/30953525/scores/8068014
+(key-sig! "b-")
+(tempo! 90) #correct is 90
+nuance = (p)
+
+loop1B1 = nuance c4 f a   | c f a | c+ f a | c+ f a8 b
+loop1B2 = nuance c4/a f a | c f a | c+ f a | c+ f a8 b
+
+#b+- for natural I guess??
+loop2B1 = nuance c4 f a   | c f a | < b+- > f a | < b+- > f a8 g
+loop2B2 = nuance c4/a f a | c f a | < b+- > f a | < b+- > f a8 g
+
+mainloopB21 = loop1B2 loop2B1
+mainloopB12 = loop1B1 loop2B2
+
+
+part_C = c2/>c c8 < b | > c4 < a > c | c+2 c+8 c | c+4. c8 < b4 | > c2 < a4 | g f e | f2. | d |
+
+music-box: #for music-box, but flute, ocarina sounds good too
+    V1:
+        nuance
+        [
+            r4*3 | r*3 | r*3 | r*3 |
+            o4
+            a2. | > e4 d c | d2. | < b+- > | #Part A
+
+            a2 a8 g | a2 a4 | b2 b4   | [a2 g4] *2 | f4 e f | d2. | c4 d e | #Part B1
+            a2 a8 g | a2 a4 | b2 b8 a | b2 b4 | > c2 < a4 | g f e | d2. | c | #Part B2
+
+            part_C
+            %C2 part_C
+        ]#*2
+        # o4 ~g2.
+
+
+    #play part C with this at the same time
+    @C2 nuance o5 r4*3 | r*3 | c+2 c+8 r8 | c+4. r8 r4 | c2 r4 | r*3 | < b+-2.*2
+    
+    V2:
+        nuance o4
+        [loop1B1 loop2B1 mainloopB21*2 mainloopB12*2]# * 2
+
+# violin:
+#     nuance
+#     [
+#         r4*3 | r*3 | r*3 | r*3 |
+#         o4
+#         a2. | > e4 d c | d2. | < b+- > | #Part A
+
+#         a2 a8 g | a2 a4 | b2 b4   | [a2 g4] *2 | f4 e f | d2. | c4 d e | #Part B1
+#         a2 a8 g | a2 a4 | b2 b8 a | b2 b4 | > c2 < a4 | g f e | d2. | c | #Part B2
+
+#         part_C
+#         %C2 part_C
+#     ]*2
+#     # o4 ~g2.
+
+
+
+
+# midi-acoustic-grand-piano:
+#     nuance o4
+#     [loop1B1 loop2B1 mainloopB21*2 mainloopB12*2] * 2
+    
+#     #play part C with this at the same time
+#     @C2 nuance o5 r4*3 | r*3 | c+2 c+8 r8 | c+4. r8 r4 | c2 r4 | r*3 | < b+-2.*2
