@@ -26,7 +26,6 @@ from ctypes import windll
 windll.shcore.SetProcessDpiAwareness(1)
 import os
 
-
 def setup(title, root): #Just to gain some space
     root.title(title)
     root.iconbitmap('../Rosace.ico')
