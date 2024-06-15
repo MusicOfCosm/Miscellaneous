@@ -13,11 +13,11 @@ My first guided project, it was part of the [First tutorial](https://pythonprogr
 
 ## Geometic figures
 
-I believe that this was me playing arund with [Matplotlib](https://matplotlib.org/). Frankly, I don't even remember what most of these functions do.
+I believe that this was me playing around with [Matplotlib](https://matplotlib.org/) using what I learned from the codingame site. Frankly, I don't even remember what most of these functions do.
 
 
 ## Organic compound viewer
 
-A actually useful script for once. Being a biology student, I had wondered about biology and programming. Most of what I found were advanced biology concepts that went completely over my head, but eventually, and I don't remember how, but I ended up downloading [PubChemPy](https://pubchempy.readthedocs.io/en/latest/) (a way to interface with [PubChem](https://pubchem.ncbi.nlm.nih.gov/) using python) and [RDKit](https://www.rdkit.org/).
+A actually useful script for once. Being a biology student, I had wondered about biology and programming. Most of what I found were advanced biology concepts that went completely over my head, but eventually, and I don't remember how, I ended up downloading [PubChemPy](https://pubchempy.readthedocs.io/en/latest/) (a way to interface with [PubChem](https://pubchem.ncbi.nlm.nih.gov/) using python) and [RDKit](https://www.rdkit.org/).
 
 I think that, seeing the example of information that you could get on sugars with PubChemPy, I wanted to be able to have visualize sugars to study more easily. Again, I don't remember how, but I found rdkit, and with it, I was able to get an image of a molecule, either from name, or by drawing it using the [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system) format. I'm proud to say that I managed to make it work in a shockingly short amount of time.
